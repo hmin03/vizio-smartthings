@@ -16,9 +16,10 @@
  
 metadata {
     definition (name: "Vizio TV", namespace: "hmin03", author: "Harold Min") {
-		capability "Actuator"
+	capability "Actuator"
         capability "Polling"
         capability "Refresh"
+	capability "Switch"
     }
 
     tiles(scale: 2) {
